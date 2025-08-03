@@ -197,9 +197,9 @@ Visit [http://localhost:8000/docs#/](http://localhost:8000/docs#/) for interacti
 
 ---
 
-## 📄 **License**
+## 📄 **Owner**
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Kanisa Thiak 
 
 ---
 
