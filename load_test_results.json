@@ -1,0 +1,2198 @@
+{
+  "test_config": {
+    "num_users": 10,
+    "requests_per_user": 15,
+    "total_requests": 215,
+    "test_duration": 32.4858295917511
+  },
+  "summary": {
+    "successful_requests": 215,
+    "failed_requests": 0,
+    "success_rate": 100.0,
+    "requests_per_second": 6.618270264355307,
+    "avg_response_time": 2.0591988097789677,
+    "min_response_time": 2.0184314250946045,
+    "max_response_time": 2.1476128101348877,
+    "p95_response_time": 2.0902875900268554,
+    "p99_response_time": 2.1124604749679565
+  },
+  "endpoint_stats": {
+    "/health": {
+      "total": 61,
+      "success": 61,
+      "times": [
+        2.0879316329956055,
+        2.0898690223693848,
+        2.1036205291748047,
+        2.0446815490722656,
+        2.0601656436920166,
+        2.067476749420166,
+        2.035645008087158,
+        2.035581111907959,
+        2.0430407524108887,
+        2.0649828910827637,
+        2.0560171604156494,
+        2.0525479316711426,
+        2.0503640174865723,
+        2.045292377471924,
+        2.050724983215332,
+        2.0622730255126953,
+        2.05641508102417,
+        2.0469439029693604,
+        2.0504889488220215,
+        2.059662103652954,
+        2.035938024520874,
+        2.0703370571136475,
+        2.0776560306549072,
+        2.0784854888916016,
+        2.080803155899048,
+        2.086031913757324,
+        2.0859804153442383,
+        2.0777623653411865,
+        2.0739941596984863,
+        2.075829029083252,
+        2.091264247894287,
+        2.059117078781128,
+        2.058570384979248,
+        2.0571417808532715,
+        2.0618674755096436,
+        2.0674962997436523,
+        2.03487491607666,
+        2.052152156829834,
+        2.0461041927337646,
+        2.0452821254730225,
+        2.0501763820648193,
+        2.042833089828491,
+        2.047234058380127,
+        2.053656816482544,
+        2.043307065963745,
+        2.0434606075286865,
+        2.019973039627075,
+        2.0575761795043945,
+        2.0746374130249023,
+        2.0694620609283447,
+        2.064474105834961,
+        2.0515074729919434,
+        2.061305284500122,
+        2.0519864559173584,
+        2.0382282733917236,
+        2.069530487060547,
+        2.0477795600891113,
+        2.0184314250946045,
+        2.0331571102142334,
+        2.0611791610717773,
+        2.063791036605835
+      ]
+    },
+    "/model_info": {
+      "total": 58,
+      "success": 58,
+      "times": [
+        2.0733416080474854,
+        2.0769641399383545,
+        2.0686676502227783,
+        2.0503556728363037,
+        2.0512287616729736,
+        2.047189474105835,
+        2.0482752323150635,
+        2.0483269691467285,
+        2.0536792278289795,
+        2.0688037872314453,
+        2.0831222534179688,
+        2.0804595947265625,
+        2.066479206085205,
+        2.0565943717956543,
+        2.047741413116455,
+        2.0368969440460205,
+        2.039717674255371,
+        2.050185203552246,
+        2.0473923683166504,
+        2.047376871109009,
+        2.0502026081085205,
+        2.0440833568573,
+        2.047589063644409,
+        2.056915760040283,
+        2.055447816848755,
+        2.0536491870880127,
+        2.068063259124756,
+        2.059807062149048,
+        2.038057804107666,
+        2.0375173091888428,
+        2.0348544120788574,
+        2.034709930419922,
+        2.0685555934906006,
+        2.0537805557250977,
+        2.065765619277954,
+        2.069197416305542,
+        2.051795244216919,
+        2.0390498638153076,
+        2.0492775440216064,
+        2.0445055961608887,
+        2.051647186279297,
+        2.0631396770477295,
+        2.0783801078796387,
+        2.072312831878662,
+        2.029024839401245,
+        2.089048385620117,
+        2.058950424194336,
+        2.0686488151550293,
+        2.036473512649536,
+        2.033939838409424,
+        2.0310873985290527,
+        2.0484983921051025,
+        2.049811363220215,
+        2.0425078868865967,
+        2.062964916229248,
+        2.0347864627838135,
+        2.0332725048065186,
+        2.066504716873169
+      ]
+    },
+    "/prediction_history": {
+      "total": 53,
+      "success": 53,
+      "times": [
+        2.0749118328094482,
+        2.0749521255493164,
+        2.0765559673309326,
+        2.068824052810669,
+        2.068735361099243,
+        2.060839891433716,
+        2.0485317707061768,
+        2.048737049102783,
+        2.041510581970215,
+        2.0517046451568604,
+        2.0305111408233643,
+        2.0615057945251465,
+        2.0752227306365967,
+        2.0578014850616455,
+        2.0553128719329834,
+        2.059880256652832,
+        2.069288969039917,
+        2.057138442993164,
+        2.0607545375823975,
+        2.0711591243743896,
+        2.0681114196777344,
+        2.0628669261932373,
+        2.088162660598755,
+        2.0322766304016113,
+        2.0335443019866943,
+        2.068284273147583,
+        2.0512826442718506,
+        2.0367062091827393,
+        2.040616750717163,
+        2.029606580734253,
+        2.0676045417785645,
+        2.066481828689575,
+        2.066439390182495,
+        2.0251922607421875,
+        2.0602192878723145,
+        2.0429019927978516,
+        2.0481245517730713,
+        2.0362377166748047,
+        2.0492677688598633,
+        2.0724306106567383,
+        2.052090644836426,
+        2.0442819595336914,
+        2.0585274696350098,
+        2.0475285053253174,
+        2.0449416637420654,
+        2.030958890914917,
+        2.0446441173553467,
+        2.055750846862793,
+        2.051633358001709,
+        2.049793243408203,
+        2.0491297245025635,
+        2.067986249923706,
+        2.0211143493652344
+      ]
+    },
+    "/visualizations": {
+      "total": 43,
+      "success": 43,
+      "times": [
+        2.099071741104126,
+        2.0996391773223877,
+        2.1111488342285156,
+        2.0640575885772705,
+        2.076303482055664,
+        2.081027030944824,
+        2.0833404064178467,
+        2.0824599266052246,
+        2.0626978874206543,
+        2.069770574569702,
+        2.0738637447357178,
+        2.0661866664886475,
+        2.068512201309204,
+        2.0806307792663574,
+        2.0837619304656982,
+        2.086815595626831,
+        2.0856387615203857,
+        2.1047780513763428,
+        2.0974655151367188,
+        2.108819007873535,
+        2.1126739978790283,
+        2.1168155670166016,
+        2.1476128101348877,
+        2.048997640609741,
+        2.0620779991149902,
+        2.0504841804504395,
+        2.0600979328155518,
+        2.061594247817993,
+        2.060966968536377,
+        2.0712335109710693,
+        2.039135694503784,
+        2.0489675998687744,
+        2.0597851276397705,
+        2.034327745437622,
+        2.0641849040985107,
+        2.0575244426727295,
+        2.050482988357544,
+        2.0442147254943848,
+        2.0686097145080566,
+        2.0602452754974365,
+        2.051788091659546,
+        2.0602827072143555,
+        2.0703108310699463
+      ]
+    }
+  },
+  "detailed_results": [
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0879316329956055,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:03.060383"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0898690223693848,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:03.061284"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.1036205291748047,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:03.073571"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0733416080474854,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:05.235155"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0769641399383545,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:05.239054"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0686676502227783,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:05.243015"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0749118328094482,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:07.411162"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0749521255493164,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:07.416243"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0765559673309326,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:07.421106"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.099071741104126,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:09.611018"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0996391773223877,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:09.621551"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.1111488342285156,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:09.628387"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0446815490722656,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:11.756680"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0601656436920166,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:11.789092"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.067476749420166,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:11.789892"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.035645008087158,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:18.959783"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.035581111907959,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:18.960918"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0430407524108887,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:18.978823"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0649828910827637,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:18.993632"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0560171604156494,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:18.995076"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0503556728363037,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:21.110803"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0512287616729736,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:21.112688"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.047189474105835,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:21.126705"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0482752323150635,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:21.142365"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0483269691467285,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:21.143905"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.068824052810669,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:23.280463"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.068735361099243,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:23.282860"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.060839891433716,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:23.288668"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0485317707061768,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:23.291371"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.048737049102783,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:23.293645"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0640575885772705,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:25.456451"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.076303482055664,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:25.460839"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.081027030944824,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:25.467404"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0833404064178467,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:25.473312"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0824599266052246,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:25.478534"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0525479316711426,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:27.609490"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0503640174865723,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:27.611844"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.045292377471924,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:27.613620"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.050724983215332,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:27.624685"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0622730255126953,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:27.641382"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0536792278289795,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:29.779501"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0688037872314453,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:29.781689"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0831222534179688,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:29.793625"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0804595947265625,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:29.795363"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.066479206085205,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:29.808477"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.041510581970215,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:31.921611"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0517046451568604,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:31.938245"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0305111408233643,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:31.939989"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0615057945251465,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:31.955973"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0752227306365967,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:31.971325"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0626978874206543,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:34.085143"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.069770574569702,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:34.108352"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0738637447357178,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:34.114928"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0661866664886475,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:34.122561"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.068512201309204,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:34.140553"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.05641508102417,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:36.243787"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0469439029693604,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:36.256782"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0504889488220215,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:36.273745"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.059662103652954,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:36.275379"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.035938024520874,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:36.277095"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0565943717956543,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:38.400774"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.047741413116455,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:38.405374"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0368969440460205,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:38.412764"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.039717674255371,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:38.417681"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.050185203552246,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:38.424359"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0703370571136475,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:45.624198"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0776560306549072,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:45.625373"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0784854888916016,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:45.626678"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.080803155899048,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:45.627212"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.086031913757324,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:45.630359"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0859804153442383,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:45.631124"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0777623653411865,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:45.634626"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0739941596984863,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:45.635696"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.075829029083252,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:45.636249"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.091264247894287,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:45.637023"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0473923683166504,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:47.773466"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.047376871109009,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:47.774521"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0502026081085205,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:47.781189"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0440833568573,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:47.782089"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.047589063644409,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:47.782982"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.056915760040283,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:47.784447"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.055447816848755,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:47.787172"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0536491870880127,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:47.789725"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.068063259124756,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:47.792751"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.059807062149048,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:47.796889"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0578014850616455,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:49.940604"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0553128719329834,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:49.942195"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.059880256652832,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:49.943523"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.069288969039917,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:49.945530"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.057138442993164,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:49.947555"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0607545375823975,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:49.954196"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0711591243743896,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:49.956026"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0681114196777344,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:49.958786"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0628669261932373,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:49.960210"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.088162660598755,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:49.962231"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0806307792663574,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:52.125715"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0837619304656982,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:52.130036"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.086815595626831,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:52.138931"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0856387615203857,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:52.143598"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.1047780513763428,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:52.147581"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0974655151367188,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:52.156966"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.108819007873535,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:52.164218"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.1126739978790283,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:52.173158"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.1168155670166016,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:52.179380"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.1476128101348877,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:52.189170"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.059117078781128,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:54.285379"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.058570384979248,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:54.288992"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0571417808532715,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:54.305245"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0618674755096436,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:54.306013"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0674962997436523,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:54.306887"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.03487491607666,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:54.308916"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.052152156829834,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:54.309921"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0461041927337646,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:54.310765"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0452821254730225,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:54.325504"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0501763820648193,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:54.339756"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.038057804107666,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:56.424574"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0375173091888428,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:56.443824"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0348544120788574,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:56.445125"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.034709930419922,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:56.446497"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0685555934906006,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:56.458697"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0537805557250977,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:56.460375"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.065765619277954,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:56.475042"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.069197416305542,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:56.476404"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.051795244216919,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:56.478072"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0390498638153076,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:56.479337"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0322766304016113,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:58.579238"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0335443019866943,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:58.580817"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.068284273147583,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:58.593885"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0512826442718506,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:58.595605"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0367062091827393,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:58.597538"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.040616750717163,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:58.599792"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.029606580734253,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:58.605388"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0676045417785645,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:58.644643"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.066481828689575,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:58.645568"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.066439390182495,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:13:58.646683"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.048997640609741,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:00.733125"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0620779991149902,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:00.742052"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0504841804504395,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:00.746590"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0600979328155518,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:00.754703"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.061594247817993,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:00.760777"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.060966968536377,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:00.766889"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0712335109710693,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:00.775431"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.039135694503784,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:00.790961"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0489675998687744,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:00.796730"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0597851276397705,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:00.804987"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.042833089828491,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:02.878034"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.047234058380127,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:02.894456"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.053656816482544,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:02.896148"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.043307065963745,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:02.898886"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0434606075286865,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:02.904858"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.019973039627075,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:02.911274"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0575761795043945,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:02.924847"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0746374130249023,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:02.950664"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0694620609283447,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:02.966634"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.064474105834961,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:02.970264"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0492775440216064,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:05.028361"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0445055961608887,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:05.056464"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.051647186279297,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:05.058302"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0631396770477295,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:05.059791"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0783801078796387,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:05.073748"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.072312831878662,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:05.075142"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.029024839401245,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:05.080418"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.089048385620117,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:05.114543"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.058950424194336,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:05.126551"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0686488151550293,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:05.142891"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0251922607421875,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:07.184381"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0602192878723145,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:07.197980"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0429019927978516,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:07.200225"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0481245517730713,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:07.209318"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0362377166748047,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:07.210939"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0492677688598633,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:07.230170"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0724306106567383,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:07.248834"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.052090644836426,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:07.267018"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0442819595336914,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:07.271115"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0585274696350098,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:07.302360"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.034327745437622,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:09.338408"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0641849040985107,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:09.348914"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0575244426727295,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:09.357075"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.050482988357544,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:09.360608"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0442147254943848,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:09.375281"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0686097145080566,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:09.380155"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0602452754974365,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:09.410128"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.051788091659546,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:09.424520"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0602827072143555,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:09.429350"
+    },
+    {
+      "endpoint": "/visualizations",
+      "method": "GET",
+      "response_time": 2.0703108310699463,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:09.473511"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0515074729919434,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:11.490689"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.061305284500122,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:11.510619"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0519864559173584,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:11.513236"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0382282733917236,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:11.514161"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.069530487060547,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:11.527216"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0477795600891113,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:11.528550"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0184314250946045,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:11.529247"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0331571102142334,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:11.558724"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.0611791610717773,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:11.591309"
+    },
+    {
+      "endpoint": "/health",
+      "method": "GET",
+      "response_time": 2.063791036605835,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:11.638150"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.036473512649536,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:13.628068"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.033939838409424,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:13.645379"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0310873985290527,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:13.661037"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0484983921051025,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:13.662524"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.049811363220215,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:13.664437"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0425078868865967,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:13.670514"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.062964916229248,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:13.692662"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0347864627838135,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:13.694205"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.0332725048065186,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:13.724929"
+    },
+    {
+      "endpoint": "/model_info",
+      "method": "GET",
+      "response_time": 2.066504716873169,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:13.805633"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0475285053253174,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:15.776376"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0449416637420654,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:15.791056"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.030958890914917,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:15.794062"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0446441173553467,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:15.806110"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.055750846862793,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:15.820847"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.051633358001709,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:15.822759"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.049793243408203,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:15.843293"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0491297245025635,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:15.844483"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.067986249923706,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:15.893894"
+    },
+    {
+      "endpoint": "/prediction_history",
+      "method": "GET",
+      "response_time": 2.0211143493652344,
+      "success": true,
+      "status_code": 200,
+      "error": null,
+      "timestamp": "2025-08-03T03:14:15.927235"
+    }
+  ],
+  "timestamp": "2025-08-03T03:14:16.035482"
+}

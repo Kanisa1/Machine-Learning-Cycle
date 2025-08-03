@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# ML Models (if large)
+# models/*.pkl
+
+# Data
+data/chest_xray/
+*.csv
+*.h5
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+
+# Test reports
+reports/test_*
+*.coverage
